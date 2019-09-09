@@ -8,26 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		F4A14BC12320FCC800F0B342 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14BC02320FCC800F0B342 /* AppDelegate.swift */; };
-		F4A14BC32320FCC800F0B342 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F4A14BC22320FCC800F0B342 /* GameScene.sks */; };
-		F4A14BC52320FCC800F0B342 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F4A14BC42320FCC800F0B342 /* Actions.sks */; };
 		F4A14BC72320FCC800F0B342 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14BC62320FCC800F0B342 /* GameScene.swift */; };
 		F4A14BC92320FCC800F0B342 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14BC82320FCC800F0B342 /* GameViewController.swift */; };
 		F4A14BCC2320FCC800F0B342 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A14BCA2320FCC800F0B342 /* Main.storyboard */; };
 		F4A14BCE2320FCC900F0B342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A14BCD2320FCC900F0B342 /* Assets.xcassets */; };
 		F4A14BD12320FCC900F0B342 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A14BCF2320FCC900F0B342 /* LaunchScreen.storyboard */; };
+		F4A14BD9232610DD00F0B342 /* TitleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14BD8232610DD00F0B342 /* TitleScene.swift */; };
+		F4A14BDB2326113E00F0B342 /* ChangeSceneProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14BDA2326113E00F0B342 /* ChangeSceneProtocol.swift */; };
+		F4A14BDD2326122C00F0B342 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14BDC2326122C00F0B342 /* GameView.swift */; };
+		F4A14BDF2326127000F0B342 /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14BDE2326127000F0B342 /* SceneManager.swift */; };
+		F4A14BE12326165000F0B342 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14BE02326165000F0B342 /* MenuScene.swift */; };
+		F4A14BE32326169900F0B342 /* BattleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14BE22326169900F0B342 /* BattleScene.swift */; };
+		F4A14BE523262F7600F0B342 /* OpeningScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14BE423262F7600F0B342 /* OpeningScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F4A14BBD2320FCC800F0B342 /* ClickerRPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickerRPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A14BC02320FCC800F0B342 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4A14BC22320FCC800F0B342 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		F4A14BC42320FCC800F0B342 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		F4A14BC62320FCC800F0B342 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		F4A14BC82320FCC800F0B342 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		F4A14BCB2320FCC800F0B342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4A14BCD2320FCC900F0B342 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4A14BD02320FCC900F0B342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4A14BD22320FCC900F0B342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4A14BD8232610DD00F0B342 /* TitleScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleScene.swift; sourceTree = "<group>"; };
+		F4A14BDA2326113E00F0B342 /* ChangeSceneProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeSceneProtocol.swift; sourceTree = "<group>"; };
+		F4A14BDC2326122C00F0B342 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		F4A14BDE2326127000F0B342 /* SceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneManager.swift; sourceTree = "<group>"; };
+		F4A14BE02326165000F0B342 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		F4A14BE22326169900F0B342 /* BattleScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleScene.swift; sourceTree = "<group>"; };
+		F4A14BE423262F7600F0B342 /* OpeningScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,14 +71,19 @@
 			isa = PBXGroup;
 			children = (
 				F4A14BC02320FCC800F0B342 /* AppDelegate.swift */,
-				F4A14BC22320FCC800F0B342 /* GameScene.sks */,
-				F4A14BC42320FCC800F0B342 /* Actions.sks */,
 				F4A14BC62320FCC800F0B342 /* GameScene.swift */,
 				F4A14BC82320FCC800F0B342 /* GameViewController.swift */,
 				F4A14BCA2320FCC800F0B342 /* Main.storyboard */,
 				F4A14BCD2320FCC900F0B342 /* Assets.xcassets */,
 				F4A14BCF2320FCC900F0B342 /* LaunchScreen.storyboard */,
 				F4A14BD22320FCC900F0B342 /* Info.plist */,
+				F4A14BDA2326113E00F0B342 /* ChangeSceneProtocol.swift */,
+				F4A14BDC2326122C00F0B342 /* GameView.swift */,
+				F4A14BDE2326127000F0B342 /* SceneManager.swift */,
+				F4A14BD8232610DD00F0B342 /* TitleScene.swift */,
+				F4A14BE423262F7600F0B342 /* OpeningScene.swift */,
+				F4A14BE02326165000F0B342 /* MenuScene.swift */,
+				F4A14BE22326169900F0B342 /* BattleScene.swift */,
 			);
 			path = ClickerRPG;
 			sourceTree = "<group>";
@@ -132,10 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4A14BCC2320FCC800F0B342 /* Main.storyboard in Resources */,
-				F4A14BC32320FCC800F0B342 /* GameScene.sks in Resources */,
 				F4A14BCE2320FCC900F0B342 /* Assets.xcassets in Resources */,
 				F4A14BD12320FCC900F0B342 /* LaunchScreen.storyboard in Resources */,
-				F4A14BC52320FCC800F0B342 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +161,14 @@
 			files = (
 				F4A14BC72320FCC800F0B342 /* GameScene.swift in Sources */,
 				F4A14BC92320FCC800F0B342 /* GameViewController.swift in Sources */,
+				F4A14BDB2326113E00F0B342 /* ChangeSceneProtocol.swift in Sources */,
+				F4A14BDF2326127000F0B342 /* SceneManager.swift in Sources */,
 				F4A14BC12320FCC800F0B342 /* AppDelegate.swift in Sources */,
+				F4A14BE523262F7600F0B342 /* OpeningScene.swift in Sources */,
+				F4A14BE12326165000F0B342 /* MenuScene.swift in Sources */,
+				F4A14BE32326169900F0B342 /* BattleScene.swift in Sources */,
+				F4A14BDD2326122C00F0B342 /* GameView.swift in Sources */,
+				F4A14BD9232610DD00F0B342 /* TitleScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

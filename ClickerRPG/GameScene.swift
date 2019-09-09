@@ -10,7 +10,9 @@ import SpriteKit
 import GameplayKit
 
 class GameScene: SKScene {
-    
+
+    var changeSceneDelegate: ChangeSceneProtocol!
+
     private let rollArray : [String] = ["敵","弱","中","強","必","超","激","殺","裏"]
     
     private var labelRoll1 : SKLabelNode?
